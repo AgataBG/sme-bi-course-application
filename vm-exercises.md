@@ -9,69 +9,93 @@
 
 #### Dataset
 
-- [ ] Add datasets used to the `datasets/` folder
+- [x] Add datasets used to the `datasets/` folder
 
 #### Files
 
-- [ ] **Initial**: Add file to the `exercises/`  folder with the name `ex-1-intial.twbx` or `ex-1-intial.pbix`, depending if you are auditioning for a Tableau or Power BI course.
-- [ ] **Solution**: Add file to the `exercises/`  folder with the name `ex-1-sol.twbx` or `ex-1-sol.pbix`
+- [x] **Initial**: Add file to the `exercises/`  folder with the name `ex-1-intial.twbx` or `ex-1-intial.pbix`, depending if you are auditioning for a Tableau or Power BI course.
+- [x] **Solution**: Add file to the `exercises/`  folder with the name `ex-1-sol.twbx` or `ex-1-sol.pbix`
 
 #### Learning Objective
 
-*One measurable learning objective that this exercise assesses*
+Let’s test your understanding of INCLUDE Level of Expression function in practice!
 
 #### Context
 
-*3 - 4 sentence description of why it’s important to learn how to do this task (linking back to the learning objective). Explain how this would be used in a real-life situation. Why is it useful, what problem does it solve?*
+INCLUDE Level of Detail (LOD) Expression is very useful when we need to navigate between various levels of granularity in our data, for example, having data on daily, hourly and per minute basis and perform calculations between these levels. It allows us to tap into various dimensions without explicitly dropping them into the visualization. Let's explore FitBit Heart Rate data to analyse differences between users’ average per minute and maximum per day Heart Rates.
 
 #### Steps to be executed by the student (max 6)
 
-*Each bulleted instruction is a complete sentence that describes a specific task.*
+##### STEP 1
+- Load 2_1_HR.twbx [ex_1_initial.twbx] workbook. FitBit UserIDs and their categories are already placed on Rows.
+- Add Heart Rate per Minute to Columns and apply Average aggregation to it.
+- Filter out usage with no data by right-clicking on this measure in Columns, selecting Filter, last option Special and selecting only non-null values and Apply.
 
-- Step 1
-- Step 2
-- Step 3
-- ...
+##### STEP 2
+- Create a new calculated field (Level of Detail expression), called Heart Rate per Day, based on average Heart rate per Minute including Heart Rate Day Date dimension in the calculation.
+- Drop your new measure Heart Rate per Day to Columns and change the aggregation to Average.
+- Grab Heart Rate per Day one more time from the field list and drop it again to Columns, next to your Average Heart Rate per Day, but change the aggregation to Maximum on this second one. 
+
+##### STEP 3
+- Convert your visualization to side-by-side chart using Show Me.
+- Rotate your chart by clicking on Swap Rows and Columns button.
+- Let’s focus on Casual Exercisers: filter out all other User Categories.
+- Expand your canvas to Entire view.
+
 
 #### Exercise question:
-*This is a question presented to learners to check if the steps above were properly completed. It can be a multiple choice question or a question with a 1-3 word answer. It is often not possible to check if all the steps are completed, in this case; the priority is to check that the learner meets the learning objective.*
+Which Casual Exerciser has the largest difference between Maximum and Average Daily Heart Rates?
+Give his/hers FitBit User ID (10 digit number).
 
 #### End goal:
 
-*Add an image of the final visualization here.*
+<img width="281" alt="image" src="https://user-images.githubusercontent.com/95186405/145714216-d56c1672-8e3a-469c-9a10-a34025bd9c32.png">
 
 ## 2nd VM Exercise
 
 #### Dataset
 
-- [ ] Add datasets used to the `datasets/` folder
+- [x] Add datasets used to the `datasets/` folder
 
 #### Files
 
-- [ ] **Initial**: Add file to the `exercises/`  folder with the name `ex-2-intial.twbx` or `ex-2-intial.pbix`, depending if you are auditioning for a Tableau or Power BI course.
-- [ ] **Solution**: Add file to the `exercises/`  folder with the name `ex-2-sol.twbx` or `ex-2-sol.pbix`
+- [x] **Initial**: Add file to the `exercises/`  folder with the name `ex-2-intial.twbx` or `ex-2-intial.pbix`, depending if you are auditioning for a Tableau or Power BI course.
+- [x] **Solution**: Add file to the `exercises/`  folder with the name `ex-2-sol.twbx` or `ex-2-sol.pbix`
 
 #### Learning Objective
 
-*One measurable learning objective that this exercise assesses*
+Expand the knowledge of INCLUDE LOD expression in practice and use it with multiple dimensions!
 
 #### Context
 
-*3 - 4 sentence description of why it’s important to learn how to do this task (linking back to the learning objective). Explain how this would be used in a real-life situation. Why is it useful, what problem does it solve?*
+Did you know that you can use more than one dimension in INCLUDE clause? Being able to calculate freely across dimensions without placing them in the canvas opens new horizons for our visualizations. Let’s see how it works, based on your knowledge so far, it should be a piece of cake! We will build further on our previous exercise from this lesson.
 
 #### Steps to be executed by the student (max 6)
 
-*Each bulleted instruction is a complete sentence that describes a specific task.*
+##### STEP 1
+- Load 2_1_HR_And_Sleep.twbx [ex_2_initial.twbx] workbook. Our previously calculated average Heart Rate per Day (LOD) per user is placed on the Columns.
+- Let’s change this LOD calculation to Heart Rate per Hour.
+- To do so, edit it in the Field list, and change the dimension argument from Heart Rate per Day Date to Heart Rate Hour and rename your adapted field.
+##### STEP 2
+- Create a new calculated field called Steps per Day (LOD), based on Sum of No of Steps per Hour including Steps Day Date dimension in the calculation.
+- Place it on Columns and aggregate by Average. Add mark labels on both graphs.
+##### STEP 3
+- Let’s go ahead and color both graphs by User Category  - go to Marks All and drag User Category from the field list onto color.
+- Now, let’s try to remove FitBit User IDs from the Rows, to obtain averages per User Category.
+##### STEP 4
+- Oh no, the calculation seems wrong! We removed FitBit User ID from the visualization but didn’t INCLUDE that dimension in the calculation. 
+- Let’s press the Undo (CTRL+Z) button.
+- Adapt both measures by editing them in the field list: in each, add FitBit User ID as a second INCLUDE dimension, Syntax is {INCLUDE Dim1, Dim2 : aggregation}.
+- Your visualization will not change as FitBit User ID is still in the Rows.
+##### STEP 5
+- Let’s now try again and remove FitBit User ID from the Rows.
+- Tadaa! We now see the averages for both measures, per User Category.
 
-- Step 1
-- Step 2
-- Step 3
-- ...
 
 #### Exercise question:
-*This is a question presented to learners to check if the steps above were properly completed. It can be a multiple choice question or a question with a 1-3 word answer. It is often not possible to check if all the steps are completed, in this case; the priority is to check that the learner meets the learning objective.*
+Individuals of which User Category have the highest average Heart Rate per Hour? Provide the name of User Category.
 
 #### End goal:
 
-*Add an image of the final visualization here.*
+<img width="298" alt="image" src="https://user-images.githubusercontent.com/95186405/145714254-d95b5d82-0247-4e85-82e1-e06cb8ed7777.png">
 
