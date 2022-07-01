@@ -8,8 +8,8 @@
 
 #### Files
 
-- [x] **Initial**:  
-- [x] **Solution**: 
+- [x] **Initial**:  https://github.com/AgataBG/sme-bi-course-application/blob/master/exercises/ex_2_2_1_word_cloud.twbx 
+- [x] **Solution**: https://github.com/AgataBG/sme-bi-course-application/blob/master/exercises/ex_2_2_1_word_cloud-sol.twbx
 
 #### Learning Objective
 
