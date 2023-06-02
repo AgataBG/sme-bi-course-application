@@ -87,7 +87,7 @@ Next, we will add a _timeline_, the same way as you would add a _slicer_. Since 
 Adapt the _timeline_ to the same date dimension (year/quarter/month etc.) as currently is present in the pivot table and test it out.
 
 #### Exercise question:
-Using your interactive filters zoom in on the period of Q1-2018 till Q4-2019 and find out for California, New York and Pennsylvania states which quarter delivered the least orders. Provide an answer in format e.g. Q4-2010.
+Using your interactive filters, zoom in on the period of Q1-2018 till Q4-2019 and find out for California, New York and Pennsylvania states which quarter delivered the least orders. Provide an answer in format e.g. Q4-2010.
 
 #### Answer:
 Q3-2019
