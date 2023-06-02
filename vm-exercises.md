@@ -39,7 +39,7 @@ Finally, beautify the pivot charts by adding meaningful titles and hiding all pi
 In which quarter we had the highest amount of Home Office orders? Provide an answer in format e.g. Q4-2010.
 
 #### Exercise (open) question 2:
-Which chart would you look at to check in which quarter we had overall the most orders? Type in either line or column.
+Which chart provides a better answer to the question "in which quarter we had the most orders overall"? Type in either line or column.
 
 #### Answer 1: 
 Q1-2017
