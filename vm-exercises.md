@@ -84,7 +84,7 @@ Did you know that we can add any data column a _Slicer_, even if it's not presen
 Next, we will add a _timeline_, the same way as you would add a _slicer_. Since it is a date-based filter, make sure to select a relevant `Order...` field as the basis for it.
 
 ##### STEP 4
-Adapt the _timeline_ to the same date dimension (year/quarter/month etc) as currently is present in the pivot table and test it out.
+Adapt the _timeline_ to the same date dimension (year/quarter/month etc.) as currently is present in the pivot table and test it out.
 
 #### Exercise question:
 Using your interactive filters zoom in on the period of Q1-2018 till Q4-2019 and find out for California, New York and Pennsylvania states which quarter delivered the least orders. Provide an answer in format e.g. Q4-2010.
