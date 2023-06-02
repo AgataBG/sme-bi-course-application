@@ -13,20 +13,20 @@
 
 #### Learning Objective
 
-Let's learn how to build a word cloud chart and use the tooltip to provide extra information!
+Let's learn how to build basic pivot charts based on a disaggregated data.
 
 #### Context
 
-A word cloud chart, also known as tag cloud, is a vusualization consisting of (key) words relevant to the dataset and enriched with measures (e.g. based on importance) by means of size or color of the individual words.
-In this exercise we will build a word cloud to understand the importance of various genres in Netflix Movies and Series dataset and we will build in a tooltip providing the name of the most popular actor of the genre.
+So far we have worked on a summarized (aggregated) data but did you know that Excel is very efficient at visualizing disaggegated data? Summarizing the data with pivot tables and visualizing then with pivot charts, we can bring insightful graphs and adapt them in no time!
+In this exercise we will build a line and a bar chart using this technique!
 
 ##### STEP 1
-Load ex_2_2_1_word_cloud.twbx. There is a Data Source filter set to `Release Year` before 2021 to ensure that only complete years are taken into consideration.
-The sheet `Word Cloud` already contains the `Genre (main)` dimension in `Rows`.
+- Load basic_pivot_charts.xlsx. 
+- Create a pivot chart based on the data in sheet `Sample - Superstore` and place it in a new sheet called "Column and Line pivot charts".
 
 ##### STEP 2
-- Move the `Genre (main)` dimension from `Rows` onto `Text Marks Card` and apply a distinct count of `Title ID` onto size.
-- Notice that the chart will automatically change to `Treemaps`. Adapt the `Marks` to switch it back to `Text`.
+- Visualize count of `Order ID` based per quarterly `Order Date`.
+- Present the result as a _line chart_.
 
 ##### STEP 3
 - Create a separate sheet called `Actors` and construct a table of `Name` and the count of `Title ID`.
