@@ -8,8 +8,8 @@
 
 #### Files
 
-- [x] **Initial**:  https://github.com/AgataBG/sme-bi-course-application/blob/master/exercises/ex_2_2_1_word_cloud.twbx 
-- [x] **Solution**: https://github.com/AgataBG/sme-bi-course-application/blob/master/exercises/ex_2_2_1_word_cloud-sol.twbx
+- [x] **Initial**:  https://github.com/AgataBG/sme-bi-course-application/blob/db3e386c7d4edcb4fb728933e40f5bad4dfa3ab2/exercises/basic_pivot_charts.xlsx
+- [x] **Solution**: https://github.com/AgataBG/sme-bi-course-application/blob/db3e386c7d4edcb4fb728933e40f5bad4dfa3ab2/exercises/basic_pivot_charts_solution.xlsx
 
 #### Learning Objective
 
@@ -59,8 +59,8 @@ Eric
 
 #### Files
 
-- [x] **Initial**:  https://github.com/AgataBG/sme-bi-course-application/blob/master/exercises/ex_2_2_2_hover_browser.twbx 
-- [x] **Solution**: https://github.com/AgataBG/sme-bi-course-application/blob/master/exercises/ex_2_2_2_hover_browser-sol.twbx
+- [x] **Initial**:  https://github.com/AgataBG/sme-bi-course-application/blob/db3e386c7d4edcb4fb728933e40f5bad4dfa3ab2/exercises/slicer_and_timeline.xlsx
+- [x] **Solution**: https://github.com/AgataBG/sme-bi-course-application/blob/db3e386c7d4edcb4fb728933e40f5bad4dfa3ab2/exercises/slicer_and_timeline_solution.xlsx
 
 #### Learning Objective
 
