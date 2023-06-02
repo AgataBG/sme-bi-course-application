@@ -30,7 +30,7 @@ In this exercise we learn how we can build insightful line and a bar charts usin
 - Present the result as a _line chart_.
 
 ##### STEP 3
-Based on the same pivot table and in the same sheet, create another version of this chart, this time a stacked bar chart.
+Based on the same pivot table and in the same sheet, create another version of this chart, this time a _stacked column chart_.
 
 ##### STEP 4
 Finally, beautify the pivot charts by adding a meaningful title and hiding all pivot buttons on the chart.
