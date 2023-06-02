@@ -13,20 +13,20 @@
 
 #### Learning Objective
 
-Let's learn how to build basic pivot charts based on a disaggregated data.
+Let's learn how to build basic pivot charts based on disaggregated data.
 
 #### Context
 
-So far we have worked on summarized (aggregated) data but did you know that Excel is very efficient at visualizing disaggregated data? Pivot tables + pivot charts is a match made in heaven when it comes to visualizing lots of data points!
+So far we have worked on summarized (aggregated) data but did you know that Excel is very efficient at visualizing disaggregated data? Pivot tables and pivot charts are a match made in heaven when it comes to visualizing lots of data points!
 
-In this exercise, we learn how to build insightful line and a column charts using this technique!
+In this exercise, we learn how to build insightful line and column charts using this technique!
 
 ##### STEP 1
 - Load basic_pivot_charts.xlsx. 
 - Create a pivot chart based on the data in sheet `Sample - Superstore` and place it in a new sheet called "Column and Line pivot charts".
 
 ##### STEP 2
-- Visualize count of `Order ID` based per quarterly `Order Date` split by `Segment`.
+- Visualize the count of `Order ID` based on quarterly `Order Date`, split by `Segment`.
 - Present the result as a _line chart_.
 
 ##### STEP 3
@@ -39,7 +39,7 @@ Finally, beautify the pivot charts by adding meaningful titles and hiding all pi
 In which quarter we had the highest amount of Home Office orders? Provide an answer in format e.g. Q4-2010.
 
 #### Exercise (open) question 2:
-Which chart provides a better answer to the question "in which quarter we had the most orders overall"? Type in either line or column.
+Which chart provides a better answer to the question "In which quarter did we have the most orders overall"? Type in either line or column.
 
 #### Answer 1: 
 Q1-2017
@@ -73,21 +73,21 @@ Pivot charts are so versatile, but they really come to life when connected with 
 Let's see it all in action!
 
 ##### STEP 1
-Load slicer_and_timeline.xlsx, duplicate the sheet `Column and Line pivot charts` the and call it "Slicer and Timeline".
+Load slicer_and_timeline.xlsx, duplicate the sheet `Column and Line pivot charts` and call it "Slicer and Timeline".
 
 ##### STEP 2
-Did you know that we can add any data column a _Slicer_, even if it's not present in our pivot table and chart.
+Did you know that we can add any data column a _Slicer_, even if it's not present in our pivot table and chart?
 - Add a _Slicer_ based on `State` field and test it out.
 - Investigate various slicer options in _Slicer_ menu and make sure that the states are appearing in two columns.
 
 ##### STEP 3
-Next, we will add a _timeline_, the same way as you would add a _slicer_. Since it is a date based filter, make sure to select a relevant _order..._ field as basis for it.
+Next, we will add a _timeline_, the same way as you would add a _slicer_. Since it is a date-based filter, make sure to select a relevant `Order...` field as the basis for it.
 
 ##### STEP 4
 Adapt the _timeline_ to the same date dimension (year/quarter/month etc) as currently is present in the pivot table and test it out.
 
 #### Exercise question:
-Using your interactive filters zoom in on period of Q1-2018 till Q4-2019 and find out for California, New York and Pennsylvania states which quarter delivered the least orders? Provide an answer in format e.g. Q4-2010.
+Using your interactive filters zoom in on the period of Q1-2018 till Q4-2019 and find out for California, New York and Pennsylvania states which quarter delivered the least orders. Provide an answer in format e.g. Q4-2010.
 
 #### Answer:
 Q3-2019
