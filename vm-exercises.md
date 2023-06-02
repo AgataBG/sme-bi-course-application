@@ -25,30 +25,29 @@ In this exercise we will build a line and a bar chart using this technique!
 - Create a pivot chart based on the data in sheet `Sample - Superstore` and place it in a new sheet called "Column and Line pivot charts".
 
 ##### STEP 2
-- Visualize count of `Order ID` based per quarterly `Order Date`.
+- Visualize count of `Order ID` based per quarterly `Order Date` split by `Segment`.
 - Present the result as a _line chart_.
 
 ##### STEP 3
-- Create a separate sheet called `Actors` and construct a table of `Name` and the count of `Title ID`.
-- Filtering `Role` on "ACTOR" and `Name` on Top 1 Actor based on the measure.
-- Simplify the visualization of the table by removing borders and suffixing the count with " films".
+Based on the same pivot table and in the same sheet, create another version of this chart, this time a stacked bar chart.
 
 ##### STEP 4
-- In `Word Cloud` sheet, adapt the `Tooltip` to display "Top actor" and the name of the actor. 
-- You will need to add some of the filters to the context in the `Actors` sheet.
+Finally, beautify the pivot charts by adding a meaningful title and hiding all pivot buttons on the chart.
 
-##### STEP 5
-- Add the title to your visualization and a subtitle informing the user that he can check-out the name of the most popular actor by hovering over the genre.
-- Style your output (color, size, font) according to your esthetics.
+#### Exercise (open) question 1:
+In which quarter we had the highest amount of Home Office orders? Provide an answer in format e.g. Q4-2010.
 
-#### Exercise question:
-What is the first name of the actor who starred in most Comedy titles of all times? 
+#### Exercise (open) question 2:
+Which chart would you look at to check in which quarter we had overall the most orders? Type in either line or column.
 
-#### Answer:
-Eric
+#### Answer 1: 
+Q1-2017
+
+#### Answer 2: 
+Column
 
 #### End goal:
-<img width="962" alt="2022-07-01 13_56_03-Tableau Public - DV - VM2 2 1 END" src="https://user-images.githubusercontent.com/95186405/176889888-4164b0a5-45c2-488b-9fe5-47d7fe19c251.png">
+![image](https://github.com/AgataBG/sme-bi-course-application/assets/95186405/fe9cd61b-d159-4571-90fc-bd9543b7bb4b)
 
 
 ## 2nd VM Exercise
