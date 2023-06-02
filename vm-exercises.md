@@ -19,7 +19,7 @@ Let's learn how to build basic pivot charts based on a disaggregated data.
 
 So far we have worked on summarized (aggregated) data but did you know that Excel is very efficient at visualizing disaggregated data? Pivot tables + pivot charts is a match made in heaven when it comes to visualizing lots of data points!
 
-In this exercise, we learn how we can build insightful line and a bar charts using this technique!
+In this exercise, we learn how to build insightful line and a column charts using this technique!
 
 ##### STEP 1
 - Load basic_pivot_charts.xlsx. 
