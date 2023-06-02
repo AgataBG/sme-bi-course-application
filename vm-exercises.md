@@ -64,39 +64,35 @@ Column
 
 #### Learning Objective
 
-We will learn how to use visualizations actions and create an intuitive hover-over browser of titles per genre.
+We will learn how to add interactivity to our pivot charts by using slicers and timelines.
 
 #### Context
 
-Intuitive dashboard design is bringing us closer to better dashboard adoption among our end-users. 
-Did you know that with Tableau you can make visualizations actions that will generate outputs in other visualizations based on selections or hovering over?
-Let's get to it!
+Pivot charts are so versatile, but they really come to life when connected with one another! We can add interactivity to our pivot tables and charts by adding _slicers_ (which you have already seen in action in the demo) as well as _timelines_, which can be used with any date fields. They both act as interactive filters and bring us one step closer to building mini Excel dashboards. 
+
+Let's see it all in action!
 
 ##### STEP 1
-Load ex_2_2_2_hover_browser.twbx and create a new sheet called "Top Titles".
+Load slicer_and_timeline.xlsx, duplicate the sheet `Column and Line pivot charts` the and call it "Slicer and Timeline".
 
 ##### STEP 2
-Filter on `Release Year` 2020 and build a table of `Title` with two measures: summed `IMDB Votes` and an average of `IMDB Score`.
-Sort by highest `IMDB Votes` but also hide this column from the visualization.
+Did you know that we can add any data column a _Slicer_, even if it's not present in our pivot table and chart.
+- Add a _Slicer_ based on `State` field and test it out.
+- Investigate various slicer options in _Slicer_ menu and make sure that the states are appearing in two columns.
 
 ##### STEP 3
-Present the `IMDB Score` as a number with one decimal, apply color and "Square" `Marks Card` to change the visualization to resemble a heatmap. Adapt the solor scale to 10-step Red-Green diverging.
-Change the title of the visualiztion to "Top Titles (by IMDB Votes) and their IMDB score".
+Next, we will add a _timeline_, the same way as you would add a _slicer_. Since it is a date based filter, make sure to select a relevant _order..._ field as basis for it.
 
 ##### STEP 4
-Create a Dashboard called "Title browser" and place the `Word cloud` sheet on the left and our newly created `Top Titles` sheet on the right. 
-Expand the `Word cloud` object visualization to "Entire View" and `Top Titles` to "Fit Width". 
-
-##### STEP 5
-Using the "Dashboard" and "Actions menu" create a new _Filter_ action which, by hovering over the genres in 'Word cloud' will present the top titles in 'Top Titles' visualization.
+Adapt the _timeline_ to the same date dimension (year/quarter/month etc) as currently is present in the pivot table and test it out.
 
 #### Exercise question:
-What is the best romance Title of 2022, considering the IMDB score?
+Using your interactive filters zoom in on period of Q1-2018 till Q4-2019 and find out for California, New York and Pennsylvania states which quarter delivered the least orders? Provide an answer in format e.g. Q4-2010.
 
 #### Answer:
-The Baker and the Beauty
+Q3-2019
 
 #### End goal:
 
-<img width="1120" alt="2022-07-01 14_37_52-Tableau Public - DV - VM2 2 2 START" src="https://user-images.githubusercontent.com/95186405/176898089-e766e23d-ff45-4e35-b560-2453eec6c6fc.png">
+![image](https://github.com/AgataBG/sme-bi-course-application/assets/95186405/20d7759a-f1a3-4f10-8908-adae04c65a88)
 
