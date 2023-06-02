@@ -33,7 +33,7 @@ In this exercise, we learn how to build insightful line and a column charts usin
 Based on the same pivot table and in the same sheet, create another version of this chart, this time a _stacked column chart_.
 
 ##### STEP 4
-Finally, beautify the pivot charts by adding a meaningful title and hiding all pivot buttons on the chart.
+Finally, beautify the pivot charts by adding meaningful titles and hiding all pivot buttons on the chart.
 
 #### Exercise (open) question 1:
 In which quarter we had the highest amount of Home Office orders? Provide an answer in format e.g. Q4-2010.
